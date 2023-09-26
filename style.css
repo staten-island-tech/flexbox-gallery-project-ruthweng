@@ -1,11 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Trispace&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,200&display=swap');
+
 body {
-    background-color: rgb(234,255,255); 
+    background-color: rgb(205, 199, 231); 
+    text-align: center;
 }
 
-padding: 10px 50px;
-    padding-bottom: 10px;
-    margin: 20px;
+h1{
+    font-family: 'Trispace', serif;
+    font-size: 50px;
+    margin: 50px;
+}
+
+#one{
+    font-size: 1.5rem;
+    font-family: 'Raleyway', serif;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    margin-left: 0.6rem;
+    margin-right: 0.6rem;
+}
+
+img{
+    width: 15vw;
+    height: 30vh;
+    object-fit: cover;
+}
+
+h2{
+    font-family: 'Trispace', serif;
+    font-size: 2rem;
+    margin-top: 1rem;
+}
+
+#two{
+    font-size: 1rem;
+    font-family: 'Raleway', serif;
+}
+
+#three{
+    font-size: 1rem;
+    font-family: 'Raleway', serif;
+}
+
+#four{
+    font-size: 1rem;
+    font-family: 'Raleway', serif;
+}
+
+#five{
+    font-size: 1rem;
+    font-family: 'Raleway', serif;
+}
+
+#six{
+    font-size: 1rem;
+    font-family: 'Raleway', serif;
+}
+
+#seven{
+    font-size: 1rem;
+    font-family: 'Raleway', serif;
+}
+
+#eight{
+    font-size: 1rem;
+    font-family: 'Raleway', serif;
+}
+
+#nine{
+    font-size: 1rem;
+    font-family: 'Raleway', serif;
+}
+
+#ten{
+    font-size: 1rem;
+    font-family: 'Raleway', serif;
+}
+
+#eleven{
+    font-size: 1rem;
+    font-family: 'Raleway', serif;
+}
+
+#twelve{
+    font-size: 1rem;
+    font-family: 'Raleway', serif;
+}
+
+#thirteen{
+    font-size: 1rem;
+    font-family: 'Raleway', serif;
+}
+
+.signs{
+    margin: 1rem auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 75vw;
+    align-items: center;
+}
+
+.card{
+    height: 55vh;
+    width: 23%;
+    margin-right: 0.6rem;
+    margin-left: 0.6rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    background-color: rgba(134, 85, 224, 0.3);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 9px 10px rgba(41, 11, 124, 0.3);
     border-radius: 10px;
-    position: relative;
-    flex-grow: 1;
-    flex-basis: 0%;
+}
