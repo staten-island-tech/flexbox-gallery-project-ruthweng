@@ -27,10 +27,6 @@ img{
     object-fit: cover;
 }
 
-img:hover {
-    transform: scale(1.35);
-}
-
 h2{
     font-family: 'Trispace', serif;
     font-size: 2rem;
@@ -124,5 +120,20 @@ h2{
     
 .card:hover {
     background-color: rgb(146, 140, 177);
+    transform: scale(1.2);
+}
+
+img:hover {
+    transform: scale(0.5);
+    transition: 0.2s;
+}
+
+h2:hover {
+    transform: translateY(-10px);
+}
+
+h1:hover{
+    transform: skew(90deg);
+    transition: 0.5s;
 }
 
