@@ -79,11 +79,6 @@ h2:hover {
     transition: 1s;
 }
 
-h1 {
-animation:
-  3s linear slidein,
-  3s ease-out 5s slideout;
-}
 
 #one:hover{
     transform: skew(30deg);
@@ -105,3 +100,37 @@ h4:hover {
         width: 100%;
     }
 }
+
+.header {
+    position: relative;
+    animation-direction: normal;
+}
+
+@keyframes move {
+    0%{
+    left: 50%;
+    bottom: 10%;
+
+    }
+
+    25%{
+    left: 50%;
+    bottom: 20%;
+    }
+
+    50%{
+    left: 55%;
+    bottom: 20%;
+    }
+
+    75%{
+    left: 55%;
+    bottom: 10%;
+    }
+
+    100%{
+    left: 50%;
+    bottom: 10%;
+    }
+}
+
