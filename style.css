@@ -103,7 +103,7 @@ h4:hover {
 
 .header {
 position: relative;
-animation: move 8s 1;
+animation: move 8s infinite;
 }
 
 @keyframes move {
