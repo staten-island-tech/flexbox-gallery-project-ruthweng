@@ -15,10 +15,10 @@ h1{
 #one{
     font-size: 1.5rem;
     font-family: 'Raleyway', serif;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
     margin-top: 1rem;
-    margin-left: 0.6rem;
-    margin-right: 0.6rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
 }
 
 img{
@@ -29,66 +29,11 @@ img{
 
 h2{
     font-family: 'Trispace', serif;
-    font-size: 2rem;
+    font-size: 1.7rem;
     margin-top: 1rem;
 }
 
-#two{
-    font-size: 1rem;
-    font-family: 'Raleway', serif;
-}
-
-#three{
-    font-size: 1rem;
-    font-family: 'Raleway', serif;
-}
-
-#four{
-    font-size: 1rem;
-    font-family: 'Raleway', serif;
-}
-
-#five{
-    font-size: 1rem;
-    font-family: 'Raleway', serif;
-}
-
-#six{
-    font-size: 1rem;
-    font-family: 'Raleway', serif;
-}
-
-#seven{
-    font-size: 1rem;
-    font-family: 'Raleway', serif;
-}
-
-#eight{
-    font-size: 1rem;
-    font-family: 'Raleway', serif;
-}
-
-#nine{
-    font-size: 1rem;
-    font-family: 'Raleway', serif;
-}
-
-#ten{
-    font-size: 1rem;
-    font-family: 'Raleway', serif;
-}
-
-#eleven{
-    font-size: 1rem;
-    font-family: 'Raleway', serif;
-}
-
-#twelve{
-    font-size: 1rem;
-    font-family: 'Raleway', serif;
-}
-
-#thirteen{
+h4{
     font-size: 1rem;
     font-family: 'Raleway', serif;
 }
@@ -121,19 +66,42 @@ h2{
 .card:hover {
     background-color: rgb(146, 140, 177);
     transform: scale(1.2);
+    transition: 0.5s;
 }
 
 img:hover {
     transform: scale(0.5);
-    transition: 0.2s;
-}
-
-h2:hover {
-    transform: translateY(-10px);
-}
-
-h1:hover{
-    transform: skew(90deg);
     transition: 0.5s;
 }
 
+h2:hover {
+    transform: translateY(-15px);
+    transition: 1s;
+}
+
+h1 {
+animation:
+  3s linear slidein,
+  3s ease-out 5s slideout;
+}
+
+#one:hover{
+    transform: skew(30deg);
+    transition: 0.8s;
+}
+
+h4:hover {
+    background-color: rgb(170, 130, 185);
+}
+
+@media screen and (max-width: 600px) {
+    .card {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .card {
+        width: 100%;
+    }
+}
