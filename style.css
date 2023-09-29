@@ -102,35 +102,23 @@ h4:hover {
 }
 
 .header {
-    position: relative;
-    animation-direction: normal;
+position: relative;
+animation: move 8s 1;
 }
 
 @keyframes move {
     0%{
-    left: 50%;
-    bottom: 10%;
-
-    }
-
-    25%{
-    left: 50%;
-    bottom: 20%;
+    right: -15%; 
     }
 
     50%{
-    left: 55%;
-    bottom: 20%;
+    right: 15%;
     }
 
-    75%{
-    left: 55%;
-    bottom: 10%;
-    }
 
     100%{
-    left: 50%;
-    bottom: 10%;
+   right 0%;
     }
+
 }
 
