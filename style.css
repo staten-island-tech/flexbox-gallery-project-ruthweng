@@ -117,7 +117,7 @@ animation: move 8s 1;
 
 
     100%{
-   right 0%;
+   right: 0%;
     }
 
 }
