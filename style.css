@@ -99,6 +99,9 @@ h4:hover {
     .card {
         width: 100%;
     }
+    img {
+        width: 55vw;
+    }
 }
 
 .header {
